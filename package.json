@@ -1,0 +1,12 @@
+{
+    "name": "NodeRoulette",
+    "version": "2.0.0",
+    "scripts": {
+        "start": "node zulu.js"
+    },
+    "dependencies": {
+        "express": "~4.0.0",
+        "socket.io": "1.4.5",
+        "node-uuid": "*"
+    }
+}

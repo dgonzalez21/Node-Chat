@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Node Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+
+<body>
+
+    <div class="container text-center " id="landing">
+        <h1> Node Chat</h1>
+        <p>Video chat with random people like omegle or chat roulette using Node, Socket.io and WebRTC.<br>
+        <p id="count"></p>
+        <a href ="#" class="btn btn-primary btn-lg" id="join"> Go! </a>
+
+
+        
+        
+        
+    </div>
+    <div class="container text-center" id="stat">
+        <h1 id="msgs"></h1>
+    </div>
+    <div id="tray">
+        <a href="#" class="btn btn-primary btn-lg" id="next">Next</a>
+        <a href="#" class="btn btn-primary btn-lg" id="leave">Leave</a>
+
+    </div>
+
+    <video id="localVideo" ></video>
+    <div id="remoteVideos"></div>
+
+
+    <script src="https://simplewebrtc.com/latest-v2.js"></script>
+    <script src="https://cdn.webrtc-experiment.com/DetectRTC.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
